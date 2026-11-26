@@ -1,4 +1,4 @@
-**Español** | [English](README.en.md)
+**Español** · [English](README.en.md)
 
 # Hola, soy Cristóbal Nanjarí
 
@@ -11,32 +11,29 @@ Me enfoco en el desarrollo full stack, la arquitectura de software, la integraci
 ## Proyectos destacados
 
 ### MavePOS
-Sistema POS y suite ERP multi-tienda 100% offline para Windows, operativo en dos establecimientos comerciales (~5.500 productos y más de 1.200 ventas mensuales por sucursal).
+Sistema POS y suite ERP multisucursal para Windows con operación local sin internet y sincronización diferida entre tiendas. Operativo en dos sucursales (~5.500 productos por tienda); en una de ellas se registran más de 1.200 ventas al mes.
 
-- Arquitectura Electron aislada con SQLite WAL, caché *write-through* en RAM (< 15 ms p95 hasta 50.000 SKU) e integración con periféricos comerciales (HID, ESC/POS, Spooler RAW, cajón RJ11).
-- Sincronización multi-sucursal sin servidor cloud ($0/mes), transferencias parciales y catálogo consolidado.
-- 1.118 pruebas automatizadas (99 suites) y auditoría WCAG AA 390/390.
+- Arquitectura modular en Electron con SQLite (WAL), catálogo en RAM optimizado (< 15 ms p95 en búsqueda F2/F10 hasta 50.000 SKU) e integración con periféricos comerciales.
+- Sincronización multi-sucursal sin servidor backend propio, transferencias parciales y catálogo consolidado.
+- 1.118 pruebas automatizadas aprobadas (99 suites) y auditoría automatizada de contraste y estabilidad visual (ver metodología en el showcase).
 
 **Stack:** TypeScript, React, Electron, SQLite (WAL), Zustand, Tailwind CSS.
 
 [Showcase técnico (código cerrado)](https://github.com/cristobal-nan/mavepos-showcase) · [Caso de estudio](https://cristobal-nanjari.vercel.app/projects/mavepos)
 
 ### Sistema de asistencia académica (UDP)
-Plataforma full stack de registro presencial de asistencia para web, Android e iOS, con tokens QR dinámicos firmados (TTL 30 s), confirmación en tiempo real por WebSocket, analítica de alertas tempranas
-e integración bidireccional con Canvas LMS.
+Plataforma full stack de registro presencial de asistencia para web, Android e iOS con tokens QR dinámicos firmados, confirmación en tiempo real por WebSocket, alertas por umbral e integración bidireccional con Canvas LMS. Proyecto de título (2025) probado en un piloto académico de 5 secciones (~40 estudiantes por sección).
 
 **Stack:** Python, FastAPI, Flutter, Next.js, TypeScript, Firebase (Auth, Firestore, FCM).
 
 [Repositorio](https://github.com/cristobal-nan/academic-attendance-system) · [Caso de estudio](https://cristobal-nanjari.vercel.app/projects/udp-attendance)
 
 ### Laminitas Tracker
-Aplicación móvil 100% offline para gestionar las 980 láminas del álbum FIFA World Cup 2026, con protocolo binario de interoperabilidad QR (bitsets de 125 B + GZIP + Base64), motor de reglas *Update Set*
-(118 reemplazos), comparador de listas y control de gastos.
+Aplicación móvil offline para gestionar las 980 láminas del álbum FIFA World Cup 2026, con intercambio QR interoperable, motor de reglas para el *Update Set* (118 reemplazos), comparador de listas de texto y control de gastos.
 
 **Stack:** Flutter, Dart, Riverpod, Hive.
 
-[Repositorio](https://github.com/cristobal-nan/laminitas-tracker) · [Descargar APK v1.9.0](https://github.com/cristobal-nan/laminitas-tracker/releases/tag/v1.9.0) · [Caso de
-estudio](https://cristobal-nanjari.vercel.app/projects/collectibles-app)
+[Repositorio](https://github.com/cristobal-nan/laminitas-tracker) · [Descargar APK v1.9.0](https://github.com/cristobal-nan/laminitas-tracker/releases/tag/v1.9.0) · [Caso de estudio](https://cristobal-nanjari.vercel.app/projects/collectibles-app)
 
 ### Portafolio profesional
 Sitio estático bilingüe (ES/EN) con casos de estudio técnicos, diagramas de arquitectura, benchmarks y experiencia profesional.
