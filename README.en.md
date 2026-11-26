@@ -1,3 +1,5 @@
+[Español](README.md) | **English**
+
 # Hi, I'm Cristóbal Nanjarí
 
 Computer Science and Telecommunications Engineer graduated
