@@ -4,4 +4,4 @@ Me gusta construir, experimentar y entender cómo funcionan las cosas. Soy Ingen
 
 Me interesan la arquitectura de software, la automatización y la mejora continua. Disfruto cuestionar cómo se hacen las cosas, explorar alternativas y encontrar formas de hacerlas mejor. Más abajo puedes ver algunos de los proyectos en los que he trabajado.
 
-[Portafolio](https://cristobal-nanjari.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/crist%C3%B3bal-nanjar%C3%AD-100377109/) · [CV (PDF)](https://cristobal-nanjari.vercel.app/cv/cv.pdf)
+[Portafolio](https://cristobal-nanjari.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/crist%C3%B3bal-nanjar%C3%AD-100377109/) · [CV (PDF)](https://cristobal-nanjari.vercel.app/cv/CV_Cristobal_Nanjari.pdf)
